@@ -1,7 +1,9 @@
 package com.example.yanghang.demo_kotlin_life
 
 import android.app.Application
-import com.example.yanghang.demo_kotlin_life.di.ApiComponet
+import com.example.yanghang.demo_kotlin_life.di.component.ApiComponet
+import com.example.yanghang.demo_kotlin_life.di.module.ApiModule
+import com.example.yanghang.demo_kotlin_life.di.module.AppMoudle
 import javax.inject.Inject
 
 /**
@@ -13,11 +15,11 @@ class App: Application(){
     init {
         instance=this
     }
-    @Inject lateinit var apiComponent:ApiComponet
+    @Inject lateinit var apiComponent: ApiComponet
 
     override fun onCreate() {
         super.onCreate()
-
+        DaggerApiComponent.builder().apiModule(ApiModule()).appModule(AppMoudle(this)).build().inject(this)
     }
 
     //类似java静态成员
