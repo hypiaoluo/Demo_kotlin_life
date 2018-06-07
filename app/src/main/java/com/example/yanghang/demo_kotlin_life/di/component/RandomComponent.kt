@@ -1,7 +1,7 @@
 package com.example.yanghang.demo_kotlin_life.di.component
 
 import com.example.yanghang.demo_kotlin_life.mvp.contract.RandomContract
-import com.example.yanghang.demo_kotlin_life.ui.MainActivity
+import com.example.yanghang.demo_kotlin_life.ui.activity.MainActivity
 import dagger.Module
 import dagger.Provides
 import dagger.Subcomponent

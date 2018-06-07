@@ -1,4 +1,4 @@
-package com.example.yanghang.demo_kotlin_life.ui
+package com.example.yanghang.demo_kotlin_life.ui.activity
 
 import android.databinding.DataBindingUtil
 import android.os.Bundle
@@ -53,6 +53,7 @@ class MainActivity : BaseBindingActivity<ActivityMainBinding>(), RandomContract.
         floatingButton.setOnClickListener(View.OnClickListener {
             mPresenter.getRandom("Android")
         })
+
     }
 
     private fun initFragments() {

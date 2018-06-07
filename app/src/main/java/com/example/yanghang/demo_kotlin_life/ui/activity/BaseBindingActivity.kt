@@ -1,4 +1,4 @@
-package com.example.yanghang.demo_kotlin_life.ui
+package com.example.yanghang.demo_kotlin_life.ui.activity
 
 import android.databinding.ViewDataBinding
 import android.os.Build

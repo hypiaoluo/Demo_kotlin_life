@@ -6,7 +6,7 @@
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.yanghang.demo_kotlin_life.ui.MainActivity">
+        tools:context="com.example.yanghang.demo_kotlin_life.ui.activity.MainActivity">
 
         <com.example.yanghang.demo_kotlin_life.ui.widget.NoScrollViewPager
             android:id="@+id/viewPager"
