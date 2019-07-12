@@ -13,7 +13,7 @@ import javax.inject.Inject
 class App: Application(){
 
     init {
-    //sss
+    //sss aaa
         instance=this
     }
     @Inject lateinit var apiComponent: ApiComponet
