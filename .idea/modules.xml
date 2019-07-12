@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Demo_kotlin_life.iml" filepath="$PROJECT_DIR$/.idea/Demo_kotlin_life.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo_kotlin_life.iml" filepath="$PROJECT_DIR$/Demo_kotlin_life.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/instantapp/instantapp.iml" filepath="$PROJECT_DIR$/instantapp/instantapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/instantapp/instantapp.iml" filepath="$PROJECT_DIR$/instantapp/instantapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mydaggerdemo/mydaggerdemo.iml" filepath="$PROJECT_DIR$/mydaggerdemo/mydaggerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mydaggerdemo/mydaggerdemo.iml" filepath="$PROJECT_DIR$/mydaggerdemo/mydaggerdemo.iml" />
     </modules>
   </component>
